@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência Criativa Web</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="IMGS/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="IMGS/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="IMGS/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="IMGS/favicon_io/site.webmanifest">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img
+                src="IMGS/agc-web-logo-480.png"
+                alt="AGC WEB Logo"
+                srcset="
+                    IMGS/agc-web-logo-480.png 480w,
+                    IMGS/agc-web-logo-768.png 768w,
+                    IMGS/agc-web-logo-1280.png 1280w
+                "
+                id="logo"
+            >
+            <h1>AGC WEB</h1>
+            <nav>
+                <a href="#home"><img src="IMGS/home-icon.png" alt="home" class="icon">Home</a>
+                <a href="#sobreNos"><img src="IMGS/info-icon.png" alt="home" class="icon">Sobre Nós</a>
+                <a href="#servicos"><img src="IMGS/serv-icon.png" alt="home" class="icon">Serviços</a>
+                <a href="#depoimentos"><img src="IMGS/comment-icon.png" alt="home" class="icon">Depoimentos</a>
+                <a href="#contato"><img src="IMGS/contato-icon.png" alt="home" class="icon">Contato</a>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="home">
+                <h1 class="tituloDestacado">Soluções Digitais que Geram Resultados!</h1>
+                <p class="desc">
+                    Criamos experiências digitais modernas, funcionais e orientadas à conversão.
+                    Sua presença online elevada ao <strong>próximo nível.</strong>
+                </p>
+                <button>Solicitar Orçamento</button>
+            </section>
+
+            <section id="sobreNos">
+                <h2 class="tituloDestacado2">Sobre Nós</h2>
+                <p class="desc">
+                    A <strong>AGC Web</strong> é uma agência focada em desenvolvimento de soluções digitais de alta <strong>performance.</strong> <br><br>
+                    Atuamos com estratégia, design e tecnologia para criar produtos que realmente geram <strong>valor.</strong>
+                </p>
+                <div class="lista">
+                    <h3 class="tituloDestacado">Nossos Valores</h3>
+                    <ul>
+                        <li>✔ Foco em resultados</li>
+                        <li>✔ Inovação constante</li>
+                        <li>✔ Transparência com clientes</li>
+                        <li>✔ Qualidade acima da média</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="servicos">
+                <h2 class="tituloDestacado2">Serviços</h2>
+                <div class="servicos-grid">
+                    <div class="servico" id="ser1">
+                        <h3>Design Gráfico</h3>
+                        <p>Criação de identidade visual <strong>moderna</strong> e <strong>profissional.</strong></p>
+                    </div>
+                    <div class="servico" id="ser2">
+                        <h3>Desenvolvimento Web</h3>
+                        <p><strong>Sites rápidos</strong>, responsivos e otimizados para <strong>performance.</strong></p>
+                    </div>
+                    <div class="servico" id="ser3">
+                        <h3>Branding</h3>
+                        <p>Construção de marcas <strong>fortes</strong> e <strong>memoráveis.</strong></p>
+                    </div>
+                    <div class="servico" id="ser4">
+                        <h3>Marketing Digital</h3>
+                        <p><strong>Estratégias</strong> para atrair, converter e fidelizar <strong>clientes.</strong></p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="depoimentos">
+                <h2 class="tituloDestacado2">Depoimentos</h2>
+                <div class="depoimento">
+                    <img src="IMGS/user-joao.jpg" alt="João Silva">
+                    <p>"A AGC Web transformou completamente nossa presença online. Resultado impressionante."</p>
+                    <span>João Silva, <strong>Empresário</strong></span>
+                </div>
+                <div class="depoimento">
+                    <img src="IMGS/user-maria.jpg" alt="Maria Oliveira">
+                    <p>"Profissionais extremamente competentes. Entregaram além do esperado."</p>
+                    <span>Maria Oliveira, <strong>Loja Virtual</strong></span>
+                </div>
+                <div class="depoimento">
+                    <img src="IMGS/user-carlos.jpg" alt="Carlos Souza">
+                    <p>"Nosso site ficou rápido, bonito e funcional. Recomendo fortemente."</p>
+                    <span>Carlos Souza, <strong>Startup Tech</strong></span>
+                </div>
+            </section>
+
+            <section id="contato">
+                <h2 class="tituloDestacado2">Contato</h2>
+                <form class="form-contato">
+                    <label id="lblnome">
+                        Nome:
+                        <input type="text" placeholder="Seu nome">
+                    </label>
+                    <label id="lblemail">
+                        Email:
+                        <input type="email" placeholder="Seu email">
+                    </label>
+                    <label id="lblmsg">
+                        Mensagem:
+                    </label>
+                    <textarea placeholder="Sua mensagem" id="msg"></textarea>
+                    <button>Enviar</button>
+                </form>
+                <div class="info-contato">
+                    <p><strong>Endereço:</strong> Rua Exemplo, 123</p>
+                    <p><strong>Telefone:</strong> (89) 99999-9999</p>
+                    <p><strong>Email:</strong> contato@agcweb.com</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>© 2026 por Agência Criativa Web. Todos os Direitos Reservados. Nenhuma parte desse site remete a uma empresa real, muito menos funcional, sendo apenas uma demonstração.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
